@@ -1,3 +1,8 @@
+use ffmpeg_next as ffmpeg;
+
 fn main() {
-    println!("Hello, world!");
+    let filename = "test.mp4";
+    let frames = create_frames(filename);
 }
+
+fn create_frames(filename: &str) {}
